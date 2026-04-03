@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Expense Tracker</title>
+    <link rel="stylesheet" href="./Login.css">
+</head>
+
+<body>
+
+    <div class="login-wrapper">
+        <div class="login-card">
+
+            <h1>💰 Expense Tracker</h1>
+            <p>Sign in to continue</p>
+
+            <label>Username</label>
+            <input type="text" id="username" placeholder="Enter username" />
+
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter password" />
+
+            <p id="error-msg">Wrong username or password!</p>
+
+            <button onclick="login()">Login</button>
+
+        </div>
+    </div>
+
+    <script src="./Login.js"></script>
+</body>
+
+</html>

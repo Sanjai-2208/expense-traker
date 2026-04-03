@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Expense Tracker</title>
+    <link rel="stylesheet" href="./singup.css">
+    
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="card">
+
+            <h1>Expense Tracker</h1>
+
+            <p>Create your account</p>
+
+            <label>Username</label>
+            <input type="text" id="username" placeholder="Enter username" />
+
+            <label>Password</label>
+            <input type="password" id="password" placeholder="Enter password" />
+
+            <label>Confirm Password</label>
+            <input type="password" id="confirm-password" placeholder="Re-enter password" />
+
+            <p id="error-msg">Error!</p>
+
+            <p id="success-msg">Account created! Going to login...</p>
+
+            <button onclick="signUp()">Create Account</button>
+
+            <p class="redirect">
+                Already have an account?
+                <a href="Login.html">Login here</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="./singup.js"></script>
+
+</body>
+
+</html>

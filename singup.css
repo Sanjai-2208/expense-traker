@@ -1,0 +1,135 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body - dark background, center content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f1a;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Outer wrapper */
+.wrapper {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card box */
+.card {
+    background-color: #1a1a2e;
+    border: 1px solid #2a2a45;
+    border-radius: 16px;
+    padding: 32px;
+    width: 380px;
+}
+
+/* Title */
+h1 {
+    font-size: 22px;
+    color: #e8e8f0;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+/* Subtitle */
+p {
+    font-size: 13px;
+    color: #6b6b8a;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* Label */
+label {
+    display: block;
+    font-size: 12px;
+    color: #6b6b8a;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+/* Input box */
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #12121f;
+    border: 1px solid #2a2a45;
+    border-radius: 8px;
+    color: #e8e8f0;
+    outline: none;
+}
+
+/* Input focus - purple border */
+input:focus {
+    border-color: #534AB7;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #534AB7;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #7F77DD;
+}
+
+/* Error message - red */
+#error-msg {
+    display: none;
+    color: #D85A30;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* Success message - green */
+#success-msg {
+    display: none;
+    color: #1D9E75;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* Redirect link */
+.redirect {
+    text-align: center;
+    font-size: 13px;
+    color: #6b6b8a;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+/* Link color */
+.redirect a {
+    color: #7F77DD;
+    text-decoration: none;
+}
+
+/* Link hover */
+.redirect a:hover {
+    text-decoration: underline;
+}
